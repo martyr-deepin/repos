@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="cr.deepin.io" review="https://cr.deepin.io"
+	fetch="https://cr.deepin.io" />
+    <remote  name="gitcafe" fetch="https://gitcafe.com/Deepin" />
+
+    <default revision="master"
+	remote="cr.deepin.io"
+	sync-j="4" />
+
+    <project name="deepin-screenshot-v3" remote="cr.deepin.io" path="apps/deepin-screenshot"/>
+    <project name="deepin-music" remote="cr.deepin.io" path="apps/deepin-music"/>
+    <project name="deepin-movie" remote="cr.deepin.io" path="apps/deepin-movie"/>
+    <project name="deepin-terminal" remote="cr.deepin.io" path="apps/deepin-terminal"/>
+    <project name="deepin-translator" remote="cr.deepin.io" path="apps/deepin-translator"/>
+    <project name="deepin-talk" remote="gitcafe" path="apps/deepin-talk"/>
+
+    <project name="deepin-social-sharing" remote="cr.deepin.io" path="libs/social-sharing"/>
+    <project name="go-lib" remote="cr.deepin.io" path="libs/go-lib"/>
+    <project name="dbus-factory" remote="cr.deepin.io" path="libs/dbus-factory"/>
+    <project name="dae" remote="cr.deepin.io" path="libs/app-engine"/>
+    <project name="QtAV" remote="cr.deepin.io" path="libs/qt-av"/>
+    <project name="deepin-qml-widgets" remote="cr.deepin.io" path="libs/deepin-qml-widgets"/>
+    <project name="deepin-ui" remote="cr.deepin.io" path="libs/deepin-ui"/>
+    <project name="deepin-webkit" remote="cr.deepin.io" path="libs/deepin-webkit"/>
+
+    <project name="deepin-gtk-theme" remote="cr.deepin.io" path="system/gtk-theme"/>
+    <project name="deepin-icon-theme" remote="cr.deepin.io" path="system/icon-theme"/>
+    <project name="plymouth-theme-deepin" remote="cr.deepin.io" path="system/plymount-theme"/>
+    <project name="default-gsettings" remote="cr.deepin.io" path="system/default-gsettings"/>
+    <project name="deepin-artwork-themes" remote="gitcafe" path="system/artwork-themes"/>
+    <project name="deepin-grub2-themes" remote="gitcafe" path="system/grub2-themes"/>
+
+    <project name="deepin-compiz" remote="gitcafe" path="dde/compiz"/>
+    <project name="deepin-store" remote="cr.deepin.io" path="dde/deepin-store"/>
+    <project name="deepin-notifications" remote="cr.deepin.io" path="dde/org.freedesktop.Notifications"/>
+    <project name="deepin-download-service" remote="cr.deepin.io" path="dde/download-service"/>
+    <project name="dde-daemon" remote="cr.deepin.io" path="dde/daemon"/>
+    <project name="deepin-menu" remote="cr.deepin.io" path="dde/deepin-menu"/>
+    <project name="dde-workspace" remote="cr.deepin.io" path="dde/workspace"/>
+    <project name="dde-dock-applets" remote="cr.deepin.io" path="dde/dock-applets"/>
+    <project name="dde-control-center" remote="cr.deepin.io" path="dde/control-center"/>
+    <project name="dde-api" remote="cr.deepin.io" path="dde/helper"/>
+    <project name="deepin-bug-reporter" remote="cr.deepin.io" path="dde/bug-reporter"/>
+    <project name="startdde" remote="cr.deepin.io" path="dde/startdde"/>
+    <project name="deepin-mutter" remote="cr.deepin.io" path="dde/mutter"/>
+    <project name="deepin-wm" remote="cr.deepin.io" path="dde/wm"/>
+    <project name="dde-desktop-plugins" remote="gitcafe" path="dde/desktop-plugins"/>
+
+    <project name="deepin-os-upgrader" remote="cr.deepin.io" path="installer/os-upgrader"/>
+    <project name="deepin-boot-maker" remote="cr.deepin.io" path="installer/deepin-boot-maker"/>
+    <project name="deepin-installer" remote="cr.deepin.io" path="installer/deepin-installer"/>
+    <project name="deepin-windows-installer" remote="cr.deepin.io" path="installer/windows-installer"/>
+
+    <project name="deepin-gettext-tools" remote="cr.deepin.io" path="tools/gettext-tools"/>
+    <project name="go-dbus-generator" remote="cr.deepin.io" path="tools/dbus-generator"/>
+</manifest>
