@@ -7,17 +7,14 @@
 
     <default revision="master" remote="cr" sync-j="4" />
 
-    <project name="deepin-screenshot-v3" path="apps/deepin-screenshot"/>
+    <project name="deepin-screenshot" path="apps/deepin-screenshot"/>
     <project name="deepin-music" path="apps/deepin-music"/>
     <project name="deepin-movie" path="apps/deepin-movie"/>
     <project name="deepin-terminal" path="apps/deepin-terminal"/>
     <project name="deepin-translator" path="apps/deepin-translator"/>
-    <project name="deepin-talk" remote="gitcafe.deepin" path="apps/deepin-talk"/>
 
-    <project name="deepin-social-sharing" path="libs/social-sharing"/>
     <project name="go-lib" path="libs/go-lib"/>
     <project name="dbus-factory" path="libs/dbus-factory"/>
-    <project name="dae" path="libs/app-engine"/>
     <project name="QtAV" path="libs/qt-av"/>
     <project name="deepin-qml-widgets" path="libs/deepin-qml-widgets"/>
     <project name="deepin-ui" path="libs/deepin-ui"/>
@@ -43,9 +40,6 @@
     <project name="dde-api" path="dde/helper"/>
     <project name="deepin-bug-reporter" path="dde/bug-reporter"/>
     <project name="startdde" path="dde/startdde"/>
-    <project name="deepin-mutter" path="dde/mutter"/>
-    <project name="deepin-wm" path="dde/wm"/>
-    <project name="dde-desktop-plugins" remote="gitcafe.deepin" path="dde/desktop-plugins"/>
 
     <project name="deepin-os-upgrader" path="installer/os-upgrader"/>
     <project name="deepin-boot-maker" path="installer/deepin-boot-maker"/>
