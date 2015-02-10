@@ -48,6 +48,7 @@
 
     <project name="deepin-gettext-tools" path="tools/gettext-tools"/>
     <project name="go-dbus-generator" path="tools/dbus-generator"/>
+    <project name="go-gir-generator" path="tools/gir-generator"/>
 
     <project name="BurntSushi/xgbutil" remote="github" path="external/xgbutil"/>
     <project name="BurntSushi/xgb" remote="github" path="external/xgb"/>
