@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="remotes.xml" />
+  <include name="prj_default.xml" />
+
+  <!-- change to your username -->
+  <remote fetch="ssh://user@cr.deepin.io:29418" name="cr.ssh" review="https://cr.deepin.io"/>
+  <default remote="cr.ssh" revision="master" sync-j="4"/>
+</manifest>

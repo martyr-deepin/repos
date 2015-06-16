@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="cr" review="https://cr.deepin.io" fetch="https://cr.deepin.io" />
+  <remote  name="cr.ssh.user" review="https://cr.deepin.io" fetch="ssh://user@cr.deepin.io:29418" />
+  <remote  name="gitcafe.deepin" fetch="https://gitcafe.com/Deepin" />
+  <remote  name="github" revision="master" fetch="https://github.com/" />
+</manifest>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- artwork -->
+  <project name="deepin-artwork-themes" path="artwork/deepin-artwork-themes"/>
+  <project name="deepin-grub2-themes" path="artwork/deepin-grub2-themes"/>
+  <project name="deepin-gtk-theme" path="artwork/deepin-gtk-theme"/>
+  <project name="deepin-icon-theme" path="artwork/deepin-icon-theme"/>
+  <project name="deepin-theme-bucket" path="artwork/deepin-theme-bucket"/>
+  <project name="plymouth-theme-deepin" path="artwork/plymouth-theme-deepin"/>
+
+  <!-- apps -->
+  <project name="deepin-feedback" path="apps/deepin-feedback"/>
+  <project name="deepin-file-manager" path="apps/deepin-file-manager"/>
+  <project name="deepin-manual" path="apps/deepin-manual"/>
+  <project name="deepin-movie" path="apps/deepin-movie"/>
+  <project name="deepin-music" path="apps/deepin-music"/>
+  <project name="deepin-remote-assistance" path="apps/deepin-remote-assistance"/>
+  <project name="deepin-screenshot" path="apps/deepin-screenshot"/>
+  <project name="deepin-store" path="apps/deepin-store"/>
+  <project name="deepin-terminal" path="apps/deepin-terminal"/>
+  <project name="deepin-translator" path="apps/deepin-translator"/>
+  <project name="dstore-repos" path="apps/dstore-repos"/>
+
+  <!-- dde -->
+  <project name="dde-api" path="dde/dde-api"/>
+  <project name="dde-control-center" path="dde/dde-control-center"/>
+  <project name="dde-daemon" path="dde/dde-daemon"/>
+  <project name="dde-dock-applets" path="dde/dde-dock-applets"/>
+  <project name="dde-workspace" path="dde/dde-workspace"/>
+  <project name="deepin-menu" path="dde/deepin-menu"/>
+  <project name="deepin-mutter" path="dde/deepin-mutter"/>
+  <project name="deepin-notifications" path="dde/deepin-notifications"/>
+  <project name="deepin-wm" path="dde/deepin-wm"/>
+  <project name="startdde" path="dde/startdde"/>
+
+  <!-- doc -->
+  <project name="deepin-wiki" path="doc/deepin-wiki"/>
+
+  <!-- installer -->
+  <project name="deepin-boot-maker" path="installer/deepin-boot-maker"/>
+  <project name="deepin-installer" path="installer/deepin-installer"/>
+  <project name="deepin-os-upgrader" path="installer/deepin-os-upgrader"/>
+  <project name="deepin-windows-installer" path="installer/deepin-windows-installer"/>
+
+  <!-- libs -->
+  <project name="QtAV" path="libs/qt-av"/>
+  <project name="dae" path="libs/dae"/>
+  <project name="dbus-factory" path="libs/dbus-factory"/>
+  <project name="deepin-download-service" path="libs/deepin-download-service"/>
+  <project name="deepin-qml-widgets" path="libs/deepin-qml-widgets"/>
+  <project name="deepin-social-sharing" path="libs/deepin-social-sharing"/>
+  <project name="deepin-sync-service" path="libs/deepin-sync-service"/>
+  <project name="deepin-ui" path="libs/deepin-ui"/>
+  <project name="deepin-webkit" path="libs/deepin-webkit"/>
+  <project name="go-lib" path="libs/go-lib"/>
+
+  <!-- package -->
+  <project name="casper" path="package/casper"/>
+  <project name="deepin-on-loongson" path="package/deepin-on-loongson"/>
+  <!-- TODO fetch failed -->
+  <!-- <project name="iso-builder" path="package/iso-builder"/> -->
+  <project name="pkg_debian" path="package/pkg_debian"/>
+
+  <!-- qa -->
+  <project name="deepin-internal-debug" path="qa/deepin-internal-debug"/>
+  <project name="deepin-openqa" path="qa/deepin-openqa"/>
+  <project name="deepin-testcases" path="qa/deepin-testcases"/>
+  <project name="only-for-test" path="qa/only-for-test"/>
+  <project name="team-robots" path="qa/team-robots"/>
+
+  <!-- settings -->
+  <project name="default-gsettings" path="settings/deepin-default-gsettings"/>
+  <project name="default-settings" path="settings/deepin-default-settings"/>
+
+  <!-- tools -->
+  <project name="deepin-gettext-tools" path="tools/deepin-gettext-tools"/>
+  <project name="go-dbus-generator" path="tools/dbus-generator"/>
+  <project name="go-gir-generator" path="tools/gir-generator"/>
+
+  <!-- old -->
+  <project name="deepin-game" path="old/deepin-game"/>
+  <project name="old/deepin-screenshot" path="old/old-deepin-screenshot"/>
+  <project name="deepin-compiz" path="old/deepin-compiz"/>
+</manifest>

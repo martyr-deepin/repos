@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="remotes.xml" />
+
+  <!-- thirdparty -->
+  <project name="BurntSushi/xgbutil" remote="github" path="thirdparty/xgbutil"/>
+  <project name="BurntSushi/xgb" remote="github" path="thirdparty/xgb"/>
+</manifest>

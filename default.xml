@@ -1,55 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="cr" review="https://cr.deepin.io" fetch="https://cr.deepin.io" />
-    <remote  name="ssh.cr" review="https://cr.deepin.io" fetch="ssh://cr.deepin.io:29418" />
-    <remote  name="gitcafe.deepin" fetch="https://gitcafe.com/Deepin" />
-    <remote  name="github" revision="master" fetch="https://github.com/" />
-
-    <default revision="master" remote="cr" sync-j="4" />
-
-    <project name="deepin-screenshot" path="apps/deepin-screenshot"/>
-    <project name="deepin-music" path="apps/deepin-music"/>
-    <project name="deepin-movie" path="apps/deepin-movie"/>
-    <project name="deepin-terminal" path="apps/deepin-terminal"/>
-    <project name="deepin-translator" path="apps/deepin-translator"/>
-
-    <project name="go-lib" path="libs/go-lib"/>
-    <project name="dbus-factory" path="libs/dbus-factory"/>
-    <project name="QtAV" path="libs/qt-av"/>
-    <project name="deepin-qml-widgets" path="libs/deepin-qml-widgets"/>
-    <project name="deepin-ui" path="libs/deepin-ui"/>
-    <project name="deepin-webkit" path="libs/deepin-webkit"/>
-
-
-    <project name="deepin-gtk-theme" path="system/gtk-theme"/>
-    <project name="deepin-icon-theme" path="system/icon-theme"/>
-    <project name="plymouth-theme-deepin" path="system/plymouth-theme"/>
-    <project name="default-gsettings" path="system/default-gsettings"/>
-    <project name="deepin-artwork-themes" remote="gitcafe.deepin" path="system/artwork-themes"/>
-    <project name="deepin-grub2-themes" remote="gitcafe.deepin" path="system/grub2-themes"/>
-
-    <project name="deepin-compiz" remote="gitcafe.deepin" path="dde/compiz"/>
-    <project name="deepin-store" path="dde/deepin-store"/>
-    <project name="deepin-notifications" path="dde/org.freedesktop.Notifications"/>
-    <project name="deepin-download-service" path="dde/download-service"/>
-    <project name="dde-daemon" path="dde/daemon"/>
-    <project name="deepin-menu" path="dde/deepin-menu"/>
-    <project name="dde-workspace" path="dde/workspace"/>
-    <project name="dde-dock-applets" path="dde/dock-applets"/>
-    <project name="dde-control-center" path="dde/control-center"/>
-    <project name="dde-api" path="dde/helper"/>
-    <project name="deepin-bug-reporter" path="dde/bug-reporter"/>
-    <project name="startdde" path="dde/startdde"/>
-
-    <project name="deepin-os-upgrader" path="installer/os-upgrader"/>
-    <project name="deepin-boot-maker" path="installer/deepin-boot-maker"/>
-    <project name="deepin-installer" path="installer/deepin-installer"/>
-    <project name="deepin-windows-installer" path="installer/windows-installer"/>
-
-    <project name="deepin-gettext-tools" path="tools/gettext-tools"/>
-    <project name="go-dbus-generator" path="tools/dbus-generator"/>
-    <project name="go-gir-generator" path="tools/gir-generator"/>
-
-    <project name="BurntSushi/xgbutil" remote="github" path="external/xgbutil"/>
-    <project name="BurntSushi/xgb" remote="github" path="external/xgb"/>
+  <include name="remotes.xml" />
+  <include name="prj_default.xml" />
+  <default revision="master" remote="cr" sync-j="4" />
 </manifest>
