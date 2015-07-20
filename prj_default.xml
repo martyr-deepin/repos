@@ -28,9 +28,10 @@
   <project name="dde-dock-applets" path="dde/dde-dock-applets" revision="release/2.3"/>
   <project name="dde-workspace" path="dde/dde-workspace" revision="release/3.0"/>
   <project name="deepin-menu" path="dde/deepin-menu" revision="release/2.3"/>
+  <project name="deepin-metacity" path="dde/deepin-metacity" revision="master"/>
   <project name="deepin-mutter" path="dde/deepin-mutter" revision="release/3.14"/>
   <project name="deepin-notifications" path="dde/deepin-notifications" revision="release/2.3"/>
-  <project name="deepin-wm" path="dde/deepin-wm" revision="release/0.2"/>
+  <project name="deepin-wm" path="dde/deepin-wm" revision="release/1.0"/>
   <project name="startdde" path="dde/startdde" revision="release/3.0"/>
 
   <!-- docs -->
@@ -65,10 +66,10 @@
   <project name="team-robots" path="qa/team-robots" revision="develop"/>
 
   <!-- services -->
-  <project name="deepin-download-service" path="services/deepin-download-service" revision="develop"/>
+  <project name="deepin-download-service" path="services/deepin-download-service" revision="release/1.0"/>
   <project name="deepin-social-sharing" path="services/deepin-social-sharing" revision="release/1.1"/>
   <project name="deepin-sync-service" path="services/deepin-sync-service" revision="develop"/>
-  <project name="deepin-theme-bucket" path="services/deepin-theme-bucket" revision="develop"/>
+  <project name="deepin-theme-bucket" path="services/deepin-theme-bucket" revision="release/1.0"/>
 
   <!-- settings -->
   <project name="default-gsettings" path="settings/deepin-default-gsettings" revision="develop"/>
