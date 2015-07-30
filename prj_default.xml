@@ -57,6 +57,7 @@
   <!-- TODO fetch failed -->
   <!-- <project name="iso-builder" path="package/iso-builder" revision="master"/> -->
   <project name="pkg_debian" path="package/pkg_debian" revision="debian"/>
+  <project name="software-center-apps" path="package/software-center-apps" revision="master"/>
 
   <!-- qa -->
   <project name="deepin-internal-debug" path="qa/deepin-internal-debug" revision="master"/>
