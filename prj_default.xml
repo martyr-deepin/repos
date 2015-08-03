@@ -27,6 +27,7 @@
   <project name="dde-daemon" path="dde/dde-daemon" revision="release/3.0"/>
   <project name="dde-dock-applets" path="dde/dde-dock-applets" revision="release/2.3"/>
   <project name="dde-workspace" path="dde/dde-workspace" revision="release/3.0"/>
+  <project name="deepin-desktop-schemas" path="dde/deepin-desktop-schemas" revision="release/3.0"/>
   <project name="deepin-menu" path="dde/deepin-menu" revision="release/2.3"/>
   <project name="deepin-metacity" path="dde/deepin-metacity" revision="master"/>
   <project name="deepin-mutter" path="dde/deepin-mutter" revision="release/3.14"/>
