@@ -34,3 +34,13 @@ cd -
 ```
 ./repo sync -j1
 ```
+
+3. Show projects with no tags
+```
+./repo forall -c '(git tag | wc | grep " 0") && pwd'
+```
+
+4. Show projects that latest commit with no tags
+```
+./repo forall -c 'printf "$(basename $PWD)\t"; git describe --long --tags' 2>&1 | grep -v '\-0\-'
+```

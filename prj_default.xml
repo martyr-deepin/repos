@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- artwork -->
+  <project name="dde-account-faces" path="artwork/dde-account-faces" revision="master"/>
   <project name="deepin-artwork-themes" path="artwork/deepin-artwork-themes" revision="master"/>
+  <project name="deepin-cursor-theme" path="artwork/deepin-cursor-theme" revision="master"/>
   <project name="deepin-grub2-themes" path="artwork/deepin-grub2-themes" revision="develop"/>
-  <project name="deepin-gtk-theme" path="artwork/deepin-gtk-theme" revision="gtk3.14"/>
+  <project name="deepin-gtk-theme" path="artwork/deepin-gtk-theme" revision="gtk3.18"/>
   <project name="deepin-icon-theme" path="artwork/deepin-icon-theme" revision="develop"/>
+  <project name="deepin-sound-theme" path="artwork/deepin-sound-theme" revision="master"/>
   <project name="plymouth-theme-deepin" path="artwork/plymouth-theme-deepin" revision="develop"/>
 
   <!-- apps -->
   <project name="deepin-feedback" path="apps/deepin-feedback" revision="release/1.0"/>
   <project name="deepin-file-manager" path="apps/deepin-file-manager" revision="release/1.0"/>
-  <project name="deepin-manual" path="apps/deepin-manual" revision="develop"/>
+  <project name="deepin-manual" path="apps/deepin-manual" revision="release/1.0"/>
   <project name="deepin-movie" path="apps/deepin-movie" revision="release/2.3"/>
   <project name="deepin-music" path="apps/deepin-music" revision="release/2.3"/>
   <project name="deepin-remote-assistance" path="apps/deepin-remote-assistance" revision="release/1.0"/>
   <project name="deepin-screenshot" path="apps/deepin-screenshot" revision="release/3.1"/>
-  <project name="deepin-store" path="apps/deepin-store" revision="develop"/>
+  <!-- <project name="deepin-store" path="apps/deepin-store" revision="2015"/> -->
   <project name="deepin-terminal" path="apps/deepin-terminal" revision="release/1.1"/>
   <project name="deepin-translator" path="apps/deepin-translator" revision="master"/>
   <!-- <project name="dstore-repos" path="apps/dstore-repos" revision="master"/> -->
@@ -23,20 +26,19 @@
 
   <!-- dde -->
   <project name="dde/dde-api" path="dde/dde-api" revision="release/3.0"/>
-  <project name="dde/dde-control-center" path="dde/dde-control-center" revision="release/2.3"/>
+  <project name="dde/dde-control-center" path="dde/dde-control-center" revision="dev/2015"/>
   <project name="dde/dde-daemon" path="dde/dde-daemon" revision="release/3.0"/>
   <project name="dde/dde-desktop" path="dde/dde-desktop" revision="master"/>
   <project name="dde/dde-dock" path="dde/dde-dock" revision="master"/>
-  <project name="dde/dde-dock-applets" path="dde/dde-dock-applets" revision="release/2.3"/>
   <project name="dde/dde-launcher" path="dde/dde-launcher" revision="master"/>
   <project name="dde/dde-session-ui" path="dde/dde-session-ui" revision="master"/>
-  <project name="dde/dde-workspace" path="dde/dde-workspace" revision="release/3.0"/>
   <project name="dde/libdui" path="dde/libdui" revision="master"/>
   <project name="dde/startdde" path="dde/startdde" revision="release/3.0"/>
-  <project name="deepin-desktop-schemas" path="dde/deepin-desktop-schemas" revision="release/3.0"/>
-  <project name="deepin-menu" path="dde/deepin-menu" revision="release/2.3"/>
+  <project name="deepin-desktop-base" path="dde/deepin-desktop-base" revision="master"/>
+  <project name="deepin-desktop-schemas" path="dde/deepin-desktop-schemas" revision="master"/>
+  <project name="deepin-menu" path="dde/deepin-menu" revision="release/3.0"/>
   <project name="deepin-metacity" path="dde/deepin-metacity" revision="master"/>
-  <project name="deepin-mutter" path="dde/deepin-mutter" revision="master"/>
+  <project name="deepin-mutter" path="dde/deepin-mutter" revision="release/3.18"/>
   <project name="deepin-nautilus-properties" path="dde/deepin-nautilus-properties" revision="master"/>
   <project name="deepin-notifications" path="dde/deepin-notifications" revision="release/2.3"/>
   <project name="deepin-wm" path="dde/deepin-wm" revision="master"/>
@@ -89,17 +91,15 @@
   <!-- <project name="autotest/dweb" path="autotest/dweb" revision="master"/> -->
 
   <!-- services -->
-  <project name="deepin-download-service" path="services/deepin-download-service" revision="release/1.0"/>
   <project name="deepin-social-sharing" path="services/deepin-social-sharing" revision="release/1.1"/>
   <project name="deepin-sync-service" path="services/deepin-sync-service" revision="develop"/>
   <project name="deepin-theme-bucket" path="services/deepin-theme-bucket" revision="release/1.0"/>
 
   <!-- settings -->
-  <project name="default-gsettings" path="settings/deepin-default-gsettings" revision="develop"/>
   <project name="default-settings" path="settings/deepin-default-settings" revision="release/1.3"/>
 
   <!-- tools -->
-  <project name="deepin-gettext-tools" path="tools/deepin-gettext-tools" revision="master"/>
+  <project name="deepin-gettext-tools" path="tools/deepin-gettext-tools" revision="develop"/>
   <project name="go-dbus-generator" path="tools/dbus-generator" revision="develop"/>
   <project name="go-gir-generator" path="tools/gir-generator" revision="develop"/>
   <!-- TODO -->
@@ -107,6 +107,10 @@
 
   <!-- old -->
   <project name="deepin-game" path="old/deepin-game" revision="develop"/>
+  <project name="dde/dde-dock-applets" path="old/dde-dock-applets" revision="release/2.3"/>
+  <project name="dde/dde-workspace" path="old/dde-workspace" revision="release/3.0"/>
+  <project name="deepin-download-service" path="old/deepin-download-service" revision="release/1.0"/>
+  <!-- <project name="default-gsettings" path="settings/deepin-default-gsettings" revision="develop"/> -->
   <!-- <project name="old/deepin-screenshot" path="old/old-deepin-screenshot" revision="master"/> -->
   <!-- <project name="deepin-compiz" path="old/deepin-compiz" revision="master"/> -->
 </manifest>
