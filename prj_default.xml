@@ -42,6 +42,7 @@
   <project name="deepin-nautilus-properties" path="dde/deepin-nautilus-properties" revision="master"/>
   <project name="deepin-notifications" path="dde/deepin-notifications" revision="release/2.3"/>
   <project name="deepin-wm" path="dde/deepin-wm" revision="master"/>
+  <project name="deepin-wm-switcher" path="dde/deepin-wm-switcher" revision="master"/>
 
   <!-- docs -->
   <!-- <project name="deepin-wiki" path="docs/deepin-wiki" revision="master"/> -->
@@ -62,10 +63,18 @@
   <project name="go-lib" path="libs/go-lib" revision="develop"/>
 
   <!-- dstore -->
-  <!-- <project name="dstore/build-dstore" path="dstore/build-dstore" revision="master"/> -->
-  <!-- <project name="dstore/dstore-client" path="dstore/dstore-client" revision="master"/> -->
-  <!-- <project name="dstore/init-data" path="dstore/init-data" revision="master"/> -->
-  <!-- <project name="dstore/old-repos-will-be-delete" path="dstore/old-repos-will-be-delete" revision="master"/> -->
+  <project name="dstore/appstore-internal-api" path="dstore/appstore-internal-api" revision="master"/>
+  <project name="dstore/appstore-server" path="dstore/appstore-server" revision="master"/>
+  <project name="dstore/appstore-webapp" path="dstore/appstore-webapp" revision="master"/>
+  <project name="dstore/build-dstore" path="dstore/build-dstore" revision="master"/>
+  <project name="dstore/deepin-appstore" path="dstore/deepin-appstore" revision="master"/>
+  <project name="dstore/dstore-cms" path="dstore/dstore-cms" revision="master"/>
+  <project name="dstore/dstore-comment" path="dstore/dstore-comment" revision="master"/>
+  <project name="dstore/init-data" path="dstore/init-data" revision="master"/>
+
+  <!-- lastore -->
+  <project name="lastore/lastore-daemon" path="lastore/lastore-daemon" revision="master"/>
+  <project name="lastore/lastore-servers" path="lastore/lastore-servers" revision="master"/>
 
   <!-- package -->
   <project name="casper" path="package/casper" revision="master"/>
@@ -78,7 +87,7 @@
 
   <!-- qa -->
   <project name="deepin-internal-debug" path="qa/deepin-internal-debug" revision="master"/>
-  <project name="deepin-openqa" path="qa/deepin-openqa" revision="master"/>
+  <!-- <project name="deepin-openqa" path="qa/deepin-openqa" revision="master"/> -->
   <project name="deepin-testcases" path="qa/deepin-testcases" revision="master"/>
   <project name="only-for-test" path="qa/only-for-test" revision="master"/>
   <project name="team-robots" path="qa/team-robots" revision="develop"/>
@@ -101,7 +110,7 @@
   <!-- tools -->
   <project name="deepin-gettext-tools" path="tools/deepin-gettext-tools" revision="develop"/>
   <project name="go-dbus-generator" path="tools/dbus-generator" revision="develop"/>
-  <project name="go-gir-generator" path="tools/gir-generator" revision="develop"/>
+  <project name="go-gir-generator" path="tools/gir-generator" revision="master"/>
   <!-- TODO -->
   <!-- <project name="git-repo" path="tools/git-repo" revision="develop"/> -->
 

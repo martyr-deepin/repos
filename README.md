@@ -32,15 +32,15 @@ cd -
 2. Sometimes `repo sync` will blocked and there is no more messages, just
 `Ctrl-\` and re-sync with one job to see which one failed
 ```
-./repo sync -j1
+repo sync -j1
 ```
 
-3. Show projects with no tags
+3. Show projects with no tag
 ```
-./repo forall -c '(git tag | wc | grep " 0") && pwd'
+repo forall -c '(git tag | wc | grep " 0") && pwd'
 ```
 
-4. Show projects that latest commit with no tags
+4. Show projects that latest commit with no tag
 ```
-./repo forall -c 'printf "$(basename $PWD)\t"; git describe --long --tags' 2>&1 | grep -v '\-0\-'
+repo forall -c 'printf "$(basename $PWD)\t"; git describe --long --tags' 2>&1 | grep -v '\-0\-'
 ```
