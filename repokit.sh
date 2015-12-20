@@ -63,7 +63,7 @@ usage() {
 }
 
 get_prj_latest_commit() {
-  repo forall "$1" -c "git log --pretty=format:'%h' --abbrev-commit -1"
+  repo forall "$1" -c "git log --pretty=format:'%H' -1"
 }
 
 get_prj_desc() {
@@ -123,11 +123,11 @@ opt_new_tag_for_prj() {
     msg "${prj} -> ${newtag} [${relcommit}]: ${desc}"
   fi
 
-  local cmd="git tag -am \"${tagmsg}\" ${newtag} ${relcommit}; git push ${REPO_REMOTE} ${newtag}"
+  local cmd="git tag -am '${tagmsg}' ${newtag} ${relcommit}; git push \${REPO_REMOTE} ${newtag}"
   if [ "${arg_push}" ]; then
     repo forall "${prj}" -c "${cmd}"
   else
-    msg2 "repo forall ${prj} -c ${cmd}"
+    msg2 "TEST: repo forall ${prj} -c \"${cmd}\""
   fi
 }
 
