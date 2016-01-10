@@ -21,7 +21,6 @@
   <!-- <project name="deepin-store" path="apps/deepin-store" revision="2015"/> -->
   <project name="deepin-terminal" path="apps/deepin-terminal" revision="release/1.1"/>
   <project name="deepin-translator" path="apps/deepin-translator" revision="master"/>
-  <!-- <project name="dstore-repos" path="apps/dstore-repos" revision="master"/> -->
   <project name="QtAV" path="apps/qt-av" revision="develop"/>
 
   <!-- dde -->
@@ -63,18 +62,10 @@
   <project name="go-lib" path="libs/go-lib" revision="develop"/>
 
   <!-- dstore -->
-  <project name="dstore/appstore-internal-api" path="dstore/appstore-internal-api" revision="master"/>
-  <project name="dstore/appstore-server" path="dstore/appstore-server" revision="master"/>
   <project name="dstore/appstore-webapp" path="dstore/appstore-webapp" revision="master"/>
-  <project name="dstore/build-dstore" path="dstore/build-dstore" revision="master"/>
   <project name="dstore/deepin-appstore" path="dstore/deepin-appstore" revision="master"/>
-  <project name="dstore/dstore-cms" path="dstore/dstore-cms" revision="master"/>
-  <project name="dstore/dstore-comment" path="dstore/dstore-comment" revision="master"/>
   <project name="dstore/init-data" path="dstore/init-data" revision="master"/>
-
-  <!-- lastore -->
   <project name="lastore/lastore-daemon" path="lastore/lastore-daemon" revision="master"/>
-  <project name="lastore/lastore-servers" path="lastore/lastore-servers" revision="master"/>
 
   <!-- package -->
   <project name="casper" path="package/casper" revision="master"/>

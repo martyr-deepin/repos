@@ -1,26 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="remotes.xml" />
-  <default revision="master" remote="cr" sync-j="4" />
 
   <!-- apps -->
-  <project name="deepin-crossover" path="private/apps/deepin-crossover"/>
-  <project name="private-sczd" path="private/apps/private-sczd"/>
   <project name="youdao-dict" path="private/apps/youdao-dict"/>
+  <project name="private/netease-cloud-music" path="private/apps/netease-cloud-music"/>
+
+  <project name="private/deepin-cloud-print-client" path="private/deepin-cloud-print/client"/>
+  <project name="private/deepin-cloud-print-server" path="private/deepin-cloud-print/server"/>
+
+  <project name="wine/deepin-crossover" path="private/wine/deepin-crossover"/>
+  <project name="wine/wine-package-script" path="private/wine/wine-package-script"/>
+
+  <project name="private-sczd" path="private/others/private-sczd"/>
 
   <!-- web -->
-  <project name="comment-cms" path="private/web/comment-cms"/>
-  <project name="deepin-bugs" path="private/web/deepin-bugs"/>
-  <project name="deepin-discuz" path="private/web/deepin-discuz"/>
-  <project name="deepin-feedback-web" path="private/web/deepin-feedback-web"/>
-  <project name="deepin-officialwebsite" path="private/web/deepin-officialwebsite"/>
-  <project name="deepin-ucenter" path="private/web/deepin-ucenter"/>
-  <project name="dstore-cms" path="private/web/dstore-cms"/>
-  <project name="planet.deepin.org" path="private/web/planet.deepin.org"/>
+  <project name="sites/bbs.deepin.org" path="private/bbs.deepin.org/bbs.deepin.org" />
+  <project name="sites/bbs.deepin.org/api" path="private/bbs.deepin.org/api" />
+  <project name="sites/bbs.deepin.org/ucenter_client" path="private/bbs.deepin.org/ucenter_client" />
+  <project name="sites/en.bbs.deepin.org" path="private/bss.deepin.org/en.bbs.deepin.org" />
 
+  <project name="sites/blog.deepin.org" path="private/blog.deepin.org" />
+  <project name="sites/deepin.com" path="private/deepin.com/deepin.com" />
+  <project name="sites/deepin.com_ui" path="private/deepin.com/ui" />
+  <project name="sites/feedback.deepin.org" path="private/feedback.deepin.org" />
+  <project name="sites/sales-admin.deepin.com" path="private/sales-admin.deepin.com" />
+  <project name="sites/wiki.deepin.org" path="private/wiki.deepin.org" />
+  <project name="sites/www.deepin.org" path="private/www.deepin.org" />
+
+  <project name="deepin-bugs" path="private/sites/deepin-bugs"/>
+  <project name="sites/topics"  path="private/sites/topics" />
+  
+
+  <!-- dstoe -->
+  <project name="dstore/appstore-internal-api" path="private/dstore/appstore-internal-api"/>
+  <project name="dstore/appstore-server" path="private/dstore/appstore-server"/>
+  <project name="dstore/build-dstore" path="private/dstore/build-dstore"/>
+  <project name="dstore/dstore-cms" path="private/dstore/dstore-cms"/>
+  <project name="dstore/dstore-comment" path="private/dstore/dstore-comment"/>
+  <project name="lastore/lastore-servers" path="private/dstore/lastore-servers"/>
+
+
+  
   <!-- server -->
   <project name="deepin-peer" path="private/server/deepin-peer"/>
 
   <!-- libs -->
   <project name="libdstorage" path="private/libs/libdstorage"/>
+
 [</manifest>
