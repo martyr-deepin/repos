@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- artwork -->
-  <project name="dde-account-faces" path="artwork/dde-account-faces" revision="master"/>
+  <project name="dde/dde-account-faces" path="artwork/dde-account-faces" revision="master"/>
   <project name="deepin-artwork-themes" path="artwork/deepin-artwork-themes" revision="master"/>
   <project name="deepin-cursor-theme" path="artwork/deepin-cursor-theme" revision="master"/>
   <project name="deepin-grub2-themes" path="artwork/deepin-grub2-themes" revision="develop"/>
@@ -13,7 +13,7 @@
   <!-- apps -->
   <project name="deepin-feedback" path="apps/deepin-feedback" revision="release/1.0"/>
   <project name="deepin-file-manager" path="apps/deepin-file-manager" revision="release/1.0"/>
-  <project name="deepin-manual" path="apps/deepin-manual" revision="release/1.0"/>
+  <!-- <project name="deepin-manual" path="apps/deepin-manual" revision="release/1.0"/> -->
   <project name="deepin-movie" path="apps/deepin-movie" revision="release/2.3"/>
   <project name="deepin-music" path="apps/deepin-music" revision="release/2.3"/>
   <project name="deepin-remote-assistance" path="apps/deepin-remote-assistance" revision="release/1.0"/>
