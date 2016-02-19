@@ -20,8 +20,7 @@
   <project name="deepin-screenshot" path="apps/deepin-screenshot" revision="release/3.1"/>
   <!-- <project name="deepin-store" path="apps/deepin-store" revision="2015"/> -->
   <project name="deepin-terminal" path="apps/deepin-terminal" revision="release/1.1"/>
-  <project name="deepin-translator" path="apps/deepin-translator" revision="master"/>
-  <project name="QtAV" path="apps/qt-av" revision="develop"/>
+  <!-- <project name="QtAV" path="apps/qt-av" revision="develop"/> -->
 
   <!-- dde -->
   <project name="dde/dde-api" path="dde/dde-api" revision="release/3.0"/>
@@ -49,15 +48,12 @@
   <!-- installer -->
   <project name="deepin-boot-maker" path="installer/deepin-boot-maker" revision="release/1.1"/>
   <project name="deepin-installer" path="installer/deepin-installer" revision="release/1.3"/>
-  <project name="deepin-os-upgrader" path="installer/deepin-os-upgrader" revision="master"/>
   <project name="deepin-windows-installer" path="installer/deepin-windows-installer" revision="develop"/>
 
   <!-- libs -->
   <project name="dae" path="libs/dae" revision="release/1.0"/>
   <project name="dbus-factory" path="libs/dbus-factory" revision="release/3.0"/>
   <project name="deepin-qml-widgets" path="libs/deepin-qml-widgets" revision="release/2.4"/>
-  <project name="deepin-ui" path="libs/deepin-ui" revision="master"/>
-  <project name="deepin-webkit" path="libs/deepin-webkit" revision="master"/>
   <project name="dra-chromium" path="libs/dra-chromium" revision="master"/>
   <project name="go-lib" path="libs/go-lib" revision="develop"/>
 
@@ -77,11 +73,10 @@
   <!-- <project name="software-center-apps" path="package/software-center-apps" revision="master"/> -->
 
   <!-- qa -->
-  <project name="deepin-internal-debug" path="qa/deepin-internal-debug" revision="master"/>
   <!-- <project name="deepin-openqa" path="qa/deepin-openqa" revision="master"/> -->
   <project name="deepin-testcases" path="qa/deepin-testcases" revision="master"/>
   <project name="only-for-test" path="qa/only-for-test" revision="master"/>
-  <project name="team-robots" path="qa/team-robots" revision="develop"/>
+  <!-- <project name="team-robots" path="qa/team-robots" revision="develop"/> -->
 
   <!-- autotest -->
   <!-- TODO -->
@@ -106,11 +101,16 @@
   <!-- <project name="git-repo" path="tools/git-repo" revision="develop"/> -->
 
   <!-- old -->
-  <project name="deepin-game" path="old/deepin-game" revision="develop"/>
-  <project name="dde/dde-dock-applets" path="old/dde-dock-applets" revision="release/2.3"/>
-  <project name="dde/dde-workspace" path="old/dde-workspace" revision="release/3.0"/>
-  <project name="deepin-download-service" path="old/deepin-download-service" revision="release/1.0"/>
-  <!-- <project name="default-gsettings" path="settings/deepin-default-gsettings" revision="develop"/> -->
-  <!-- <project name="old/deepin-screenshot" path="old/old-deepin-screenshot" revision="master"/> -->
-  <!-- <project name="deepin-compiz" path="old/deepin-compiz" revision="master"/> -->
+  <project name="old/deepin-game" path="old/deepin-game" revision="develop"/>
+  <project name="old/dde-dock-applets" path="old/dde-dock-applets" revision="release/2.3"/>
+  <project name="old/dde-workspace" path="old/dde-workspace" revision="release/3.0"/>
+  <project name="old/deepin-download-service" path="old/deepin-download-service" revision="release/1.0"/>
+  <project name="old/default-gsettings" path="old/deepin-gsettings" revision="develop"/>
+  <project name="old/deepin-screenshot" path="old/old-deepin-screenshot" revision="master"/>
+  <project name="old/deepin-compiz" path="old/deepin-compiz" revision="master"/>
+  <project name="old/deepin-internal-debug" path="old/deepin-internal-debug" revision="master"/>
+  <project name="old/deepin-os-upgrader" path="old/deepin-os-upgrader" revision="master"/>
+  <project name="old/deepin-ui" path="deepin-ui" revision="master"/>
+  <project name="old/deepin-webkit" path="deepin-webkit" revision="master"/>
+  <project name="old/deepin-translator" path="deepin-translator" revision="master"/>
 </manifest>
