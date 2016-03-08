@@ -1,116 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- artwork -->
-  <project name="dde/dde-account-faces" path="artwork/dde-account-faces" revision="master"/>
-  <project name="deepin-artwork-themes" path="artwork/deepin-artwork-themes" revision="master"/>
-  <project name="deepin-cursor-theme" path="artwork/deepin-cursor-theme" revision="master"/>
-  <project name="deepin-grub2-themes" path="artwork/deepin-grub2-themes" revision="develop"/>
+  <project name="dde/dde-account-faces" path="artwork/dde-account-faces"/>
+  <project name="deepin-artwork-themes" path="artwork/deepin-artwork-themes"/>
+  <project name="deepin-cursor-theme" path="artwork/deepin-cursor-theme"/>
+  <project name="deepin-grub2-themes" path="artwork/deepin-grub2-themes"/>
   <project name="deepin-gtk-theme" path="artwork/deepin-gtk-theme" revision="gtk3.18"/>
-  <project name="deepin-icon-theme" path="artwork/deepin-icon-theme" revision="develop"/>
-  <project name="deepin-sound-theme" path="artwork/deepin-sound-theme" revision="master"/>
-  <project name="plymouth-theme-deepin" path="artwork/plymouth-theme-deepin" revision="develop"/>
+  <project name="deepin-icon-theme" path="artwork/deepin-icon-theme"/>
+  <project name="deepin-sound-theme" path="artwork/deepin-sound-theme"/>
+  <project name="plymouth-theme-deepin" path="artwork/plymouth-theme-deepin"/>
+  <!-- <project name="deepin-plymouth" path="artwork/deepin-plymouth"/> -->
 
   <!-- apps -->
-  <project name="deepin-feedback" path="apps/deepin-feedback" revision="release/1.0"/>
-  <project name="deepin-file-manager" path="apps/deepin-file-manager" revision="release/1.0"/>
-  <!-- <project name="deepin-manual" path="apps/deepin-manual" revision="release/1.0"/> -->
-  <project name="deepin-movie" path="apps/deepin-movie" revision="release/2.3"/>
-  <project name="deepin-music" path="apps/deepin-music" revision="release/2.3"/>
-  <project name="deepin-remote-assistance" path="apps/deepin-remote-assistance" revision="release/1.0"/>
-  <project name="deepin-screenshot" path="apps/deepin-screenshot" revision="release/3.1"/>
-  <!-- <project name="deepin-store" path="apps/deepin-store" revision="2015"/> -->
-  <project name="deepin-terminal" path="apps/deepin-terminal" revision="release/1.1"/>
-  <!-- <project name="QtAV" path="apps/qt-av" revision="develop"/> -->
+  <project name="deepin-feedback" path="apps/deepin-feedback"/>
+  <project name="deepin-file-manager" path="apps/deepin-file-manager"/>
+  <!-- <project name="deepin-manual" path="apps/deepin-manual"/> -->
+  <!-- <project name="deepin-manual-documents" path="apps/deepin-manual-documents"/> -->
+  <project name="deepin-movie" path="apps/deepin-movie"/>
+  <project name="deepin-music" path="apps/deepin-music"/>
+  <project name="deepin-remote-assistance" path="apps/deepin-remote-assistance"/>
+  <project name="deepin-screenshot" path="apps/deepin-screenshot"/>
+  <project name="deepin-terminal" path="apps/deepin-terminal"/>
 
   <!-- dde -->
-  <project name="dde/dde-api" path="dde/dde-api" revision="release/3.0"/>
-  <project name="dde/dde-control-center" path="dde/dde-control-center" revision="dev/2015"/>
-  <project name="dde/dde-daemon" path="dde/dde-daemon" revision="release/3.0"/>
-  <project name="dde/dde-desktop" path="dde/dde-desktop" revision="master"/>
-  <project name="dde/dde-dock" path="dde/dde-dock" revision="master"/>
-  <project name="dde/dde-launcher" path="dde/dde-launcher" revision="master"/>
-  <project name="dde/dde-session-ui" path="dde/dde-session-ui" revision="master"/>
-  <project name="dde/libdui" path="dde/libdui" revision="master"/>
-  <project name="dde/startdde" path="dde/startdde" revision="release/3.0"/>
-  <project name="deepin-desktop-base" path="dde/deepin-desktop-base" revision="master"/>
-  <project name="deepin-desktop-schemas" path="dde/deepin-desktop-schemas" revision="master"/>
-  <project name="deepin-menu" path="dde/deepin-menu" revision="release/3.0"/>
-  <project name="deepin-metacity" path="dde/deepin-metacity" revision="master"/>
+  <project name="dde/dde-api" path="dde/dde-api"/>
+  <project name="dde/dde-control-center" path="dde/dde-control-center"/>
+  <project name="dde/dde-daemon" path="dde/dde-daemon"/>
+  <project name="dde/dde-desktop" path="dde/dde-desktop"/>
+  <project name="dde/dde-dock" path="dde/dde-dock"/>
+  <project name="dde/dde-help" path="dde/dde-help"/>
+  <project name="dde/dde-launcher" path="dde/dde-launcher"/>
+  <project name="dde/dde-session-ui" path="dde/dde-session-ui"/>
+  <project name="dde/startdde" path="dde/startdde"/>
+  <project name="deepin-desktop-base" path="dde/deepin-desktop-base"/>
+  <project name="deepin-desktop-schemas" path="dde/deepin-desktop-schemas"/>
+  <project name="deepin-menu" path="dde/deepin-menu"/>
+  <project name="deepin-metacity" path="dde/deepin-metacity"/>
   <project name="deepin-mutter" path="dde/deepin-mutter" revision="release/3.18"/>
-  <project name="deepin-nautilus-properties" path="dde/deepin-nautilus-properties" revision="master"/>
-  <project name="deepin-notifications" path="dde/deepin-notifications" revision="release/2.3"/>
-  <project name="deepin-wm" path="dde/deepin-wm" revision="master"/>
-  <project name="deepin-wm-switcher" path="dde/deepin-wm-switcher" revision="master"/>
+  <project name="deepin-nautilus-properties" path="dde/deepin-nautilus-properties"/>
+  <project name="deepin-notifications" path="dde/deepin-notifications"/>
+  <project name="deepin-wm" path="dde/deepin-wm"/>
+  <project name="deepin-wm-switcher" path="dde/deepin-wm-switcher"/>
 
   <!-- docs -->
-  <!-- <project name="deepin-wiki" path="docs/deepin-wiki" revision="master"/> -->
+  <!-- <project name="deepin-wiki" path="docs/deepin-wiki"/> -->
 
   <!-- installer -->
-  <project name="deepin-boot-maker" path="installer/deepin-boot-maker" revision="release/1.1"/>
-  <project name="deepin-installer" path="installer/deepin-installer" revision="release/1.3"/>
-  <project name="deepin-windows-installer" path="installer/deepin-windows-installer" revision="develop"/>
+  <project name="deepin-boot-maker" path="installer/deepin-boot-maker"/>
+  <project name="deepin-installer" path="installer/deepin-installer"/>
+  <project name="deepin-windows-installer" path="installer/deepin-windows-installer"/>
 
   <!-- libs -->
-  <project name="dae" path="libs/dae" revision="release/1.0"/>
-  <project name="dbus-factory" path="libs/dbus-factory" revision="release/3.0"/>
-  <project name="deepin-qml-widgets" path="libs/deepin-qml-widgets" revision="release/2.4"/>
-  <project name="dra-chromium" path="libs/dra-chromium" revision="master"/>
-  <project name="go-lib" path="libs/go-lib" revision="develop"/>
+  <project name="dae" path="libs/dae"/>
+  <project name="dbus-factory" path="libs/dbus-factory"/>
+  <project name="deepin-qml-widgets" path="libs/deepin-qml-widgets"/>
+  <project name="dra-chromium" path="libs/dra-chromium"/>
+  <project name="go-lib" path="libs/go-lib"/>
+  <project name="deepin-tool-kit" path="libs/deepin-tool-kit"/>
+  <!-- <project name="QtAV" path="libs/qt-av"/> -->
 
   <!-- dstore -->
-  <project name="dstore/appstore-webapp" path="dstore/appstore-webapp" revision="master"/>
-  <project name="dstore/deepin-appstore" path="dstore/deepin-appstore" revision="master"/>
-  <project name="dstore/init-data" path="dstore/init-data" revision="master"/>
-  <project name="lastore/lastore-daemon" path="lastore/lastore-daemon" revision="master"/>
+  <project name="dstore/appstore-webapp" path="dstore/appstore-webapp"/>
+  <project name="dstore/deepin-appstore" path="dstore/deepin-appstore"/>
+  <project name="dstore/init-data" path="dstore/init-data"/>
+  <project name="lastore/lastore-daemon" path="lastore/lastore-daemon"/>
 
   <!-- package -->
-  <project name="casper" path="package/casper" revision="master"/>
-  <project name="deepin-on-loongson" path="package/deepin-on-loongson" revision="master"/>
+  <project name="casper" path="package/casper"/>
+  <project name="deepin-on-loongson" path="package/deepin-on-loongson"/>
   <!-- TODO fetch failed -->
-  <!-- <project name="iso-builder" path="package/iso-builder" revision="master"/> -->
+  <!-- <project name="iso-builder" path="package/iso-builder"/> -->
   <project name="pkg_debian" path="package/pkg_debian" revision="debian"/>
   <!-- TODO fetch failed -->
-  <!-- <project name="software-center-apps" path="package/software-center-apps" revision="master"/> -->
+  <!-- <project name="software-center-apps" path="package/software-center-apps"/> -->
 
   <!-- qa -->
-  <!-- <project name="deepin-openqa" path="qa/deepin-openqa" revision="master"/> -->
-  <project name="deepin-testcases" path="qa/deepin-testcases" revision="master"/>
-  <project name="only-for-test" path="qa/only-for-test" revision="master"/>
+  <!-- <project name="deepin-openqa" path="qa/deepin-openqa"/> -->
+  <project name="deepin-testcases" path="qa/deepin-testcases"/>
+  <project name="only-for-test" path="qa/only-for-test"/>
   <!-- <project name="team-robots" path="qa/team-robots" revision="develop"/> -->
 
   <!-- autotest -->
   <!-- TODO -->
-  <!-- <project name="autotest/dapps" path="autotest/dapps" revision="master"/> -->
-  <!-- <project name="autotest/diso" path="autotest/diso" revision="master"/> -->
-  <!-- <project name="autotest/dsystem" path="autotest/dsystem" revision="master"/> -->
-  <!-- <project name="autotest/dweb" path="autotest/dweb" revision="master"/> -->
+  <!-- <project name="autotest/dapps" path="autotest/dapps"/> -->
+  <!-- <project name="autotest/diso" path="autotest/diso"/> -->
+  <!-- <project name="autotest/dsystem" path="autotest/dsystem"/> -->
+  <!-- <project name="autotest/dweb" path="autotest/dweb"/> -->
 
   <!-- services -->
   <project name="deepin-social-sharing" path="services/deepin-social-sharing" revision="release/1.1"/>
-  <project name="deepin-sync-service" path="services/deepin-sync-service" revision="develop"/>
-  <project name="deepin-theme-bucket" path="services/deepin-theme-bucket" revision="release/1.0"/>
 
   <!-- settings -->
-  <project name="default-settings" path="settings/deepin-default-settings" revision="release/1.3"/>
+  <project name="default-settings" path="settings/deepin-default-settings"/>
 
   <!-- tools -->
-  <project name="deepin-gettext-tools" path="tools/deepin-gettext-tools" revision="develop"/>
-  <project name="go-dbus-generator" path="tools/dbus-generator" revision="develop"/>
-  <project name="go-gir-generator" path="tools/gir-generator" revision="master"/>
+  <project name="deepin-gettext-tools" path="tools/deepin-gettext-tools"/>
+  <project name="go-dbus-generator" path="tools/dbus-generator"/>
+  <project name="go-gir-generator" path="tools/gir-generator"/>
   <!-- TODO -->
   <!-- <project name="git-repo" path="tools/git-repo" revision="develop"/> -->
 
   <!-- old -->
-  <project name="old/deepin-game" path="old/deepin-game" revision="develop"/>
-  <project name="old/dde-dock-applets" path="old/dde-dock-applets" revision="release/2.3"/>
-  <project name="old/dde-workspace" path="old/dde-workspace" revision="release/3.0"/>
-  <project name="old/deepin-download-service" path="old/deepin-download-service" revision="release/1.0"/>
-  <project name="old/default-gsettings" path="old/deepin-gsettings" revision="develop"/>
-  <project name="old/deepin-screenshot" path="old/old-deepin-screenshot" revision="master"/>
-  <project name="old/deepin-compiz" path="old/deepin-compiz" revision="master"/>
-  <project name="old/deepin-internal-debug" path="old/deepin-internal-debug" revision="master"/>
-  <project name="old/deepin-os-upgrader" path="old/deepin-os-upgrader" revision="master"/>
-  <project name="old/deepin-ui" path="deepin-ui" revision="master"/>
-  <project name="old/deepin-webkit" path="deepin-webkit" revision="master"/>
-  <project name="old/deepin-translator" path="deepin-translator" revision="master"/>
+  <!-- <project name="old/deepin-game" path="old/deepin-game"/> -->
+  <!-- <project name="old/dde-dock-applets" path="old/dde-dock-applets"/> -->
+  <!--<project name="old/dde-workspace" path="old/dde-workspace"/>-->
+  <!-- <project name="old/deepin-download-service" path="old/deepin-download-service"/> -->
+  <!-- <project name="old/default-gsettings" path="old/deepin-gsettings"/> -->
+  <!-- <project name="old/deepin-screenshot" path="old/old-deepin-screenshot"/> -->
+  <!-- <project name="old/deepin-compiz" path="old/deepin-compiz"/> -->
+  <!-- <project name="old/deepin-internal-debug" path="old/deepin-internal-debug"/> -->
+  <!-- <project name="old/deepin-os-upgrader" path="old/deepin-os-upgrader"/> -->
+  <!-- <project name="old/deepin-ui" path="deepin-ui"/> -->
+  <!-- <project name="old/deepin-webkit" path="deepin-webkit"/> -->
+  <!-- <project name="old/deepin-translator" path="deepin-translator"/> -->
+  <!-- <project name="old/deepin-sync-service" path="old/deepin-sync-service"/> -->
+  <!-- <project name="old/deepin-theme-bucket" path="old/deepin-theme-bucket"/> -->
+  <!-- <project name="old/libdui" path="old/libdui"/> -->
+  <!-- <project name="deepin-store" path="apps/deepin-store" revision="2015"/> -->
 </manifest>
