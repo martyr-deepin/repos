@@ -71,6 +71,13 @@ get_prj_desc() {
 }
 
 ###* Operations
+usage_opt_show_prj_desc() {
+  echo "Usage: ${appname} show_prj_desc"
+}
+opt_show_prj_desc() {
+  repo forall -c 'echo ${REPO_PROJECT}: $(git describe --long --tags 2>/dev/null)'
+}
+
 usage_opt_show_prj_with_no_tag() {
   echo "Usage: ${appname} show_prj_with_no_tag"
 }
