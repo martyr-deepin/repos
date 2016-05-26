@@ -8,26 +8,31 @@
   <project name="deepin-gtk-theme" path="artwork/deepin-gtk-theme" revision="gtk3.18"/>
   <project name="deepin-icon-theme" path="artwork/deepin-icon-theme"/>
   <project name="deepin-sound-theme" path="artwork/deepin-sound-theme"/>
+  <project name="deepin-wallpapers" path="artwork/deepin-wallpapers"/>
   <project name="plymouth-theme-deepin" path="artwork/plymouth-theme-deepin"/>
   <!-- <project name="deepin-plymouth" path="artwork/deepin-plymouth"/> -->
 
   <!-- apps -->
   <project name="deepin-feedback" path="apps/deepin-feedback"/>
-  <project name="deepin-file-manager" path="apps/deepin-file-manager"/>
-  <!-- <project name="deepin-manual" path="apps/deepin-manual"/> -->
-  <!-- <project name="deepin-manual-documents" path="apps/deepin-manual-documents"/> -->
+  <project name="deepin-file-manager-backend" path="apps/deepin-file-manager-backend"/>
+  <project name="deepin-license" path="apps/deepin-license"/>
+  <project name="deepin-manual" path="apps/deepin-manual"/>
+  <project name="deepin-manual-documents" path="apps/deepin-manual-documents"/>
   <project name="deepin-movie" path="apps/deepin-movie"/>
   <project name="deepin-music" path="apps/deepin-music"/>
   <project name="deepin-remote-assistance" path="apps/deepin-remote-assistance"/>
   <project name="deepin-screenshot" path="apps/deepin-screenshot"/>
   <project name="deepin-terminal" path="apps/deepin-terminal"/>
+  <project name="deepin-image-viewer" path="apps/deepin-image-viewer"/>
 
   <!-- dde -->
   <project name="dde/dde-api" path="dde/dde-api"/>
+  <project name="dde/dde-calendar" path="dde/dde-calendar"/>
   <project name="dde/dde-control-center" path="dde/dde-control-center"/>
   <project name="dde/dde-daemon" path="dde/dde-daemon"/>
   <project name="dde/dde-desktop" path="dde/dde-desktop"/>
   <project name="dde/dde-dock" path="dde/dde-dock"/>
+  <project name="dde/dde-file-manager" path="dde/dde-file-manager"/>
   <project name="dde/dde-help" path="dde/dde-help"/>
   <project name="dde/dde-launcher" path="dde/dde-launcher"/>
   <project name="dde/dde-session-ui" path="dde/dde-session-ui"/>
@@ -101,6 +106,47 @@
   <!-- <project name="git-repo" path="tools/git-repo" revision="develop"/> -->
 
   <!-- old -->
+  <project name="old/dde-dock-applets" path="old/dde-dock-applets"/>
+  <project name="old/deepin-compiz" path="old/deepin-compiz"/>
+  <project name="old/deepin-crash-reporter" path="old/deepin-crash-reporter"/>
+  <project name="old/deepin-download-service" path="old/deepin-download-service"/>
+  <project name="old/deepin-emacs-old" path="old/deepin-emacs-old"/>
+  <project name="old/deepin-game" path="old/deepin-game"/>
+  <project name="old/deepin-gnome-shell" path="old/deepin-gnome-shell"/>
+  <project name="old/deepin-gnome-shell-extensions" path="old/deepin-gnome-shell-extensions"/>
+  <project name="old/deepin-gsettings" path="old/deepin-gsettings"/>
+  <project name="old/deepin-internal-debug" path="old/deepin-internal-debug"/>
+  <project name="old/deepin-libwm" path="old/deepin-libwm"/>
+  <project name="old/deepin-media-player" path="old/deepin-media-player"/>
+  <project name="old/deepin-os-upgrader" path="old/deepin-os-upgrader"/>
+  <project name="old/deepin-screenshot" path="old/deepin-screenshot"/>
+  <project name="old/deepin-screenshot-v3" path="old/deepin-screenshot-v3"/>
+  <project name="old/deepin-settings-daemon" path="old/deepin-settings-daemon"/>
+  <project name="old/deepin-software-center-data" path="old/deepin-software-center-data"/>
+  <project name="old/deepin-storm" path="old/deepin-storm"/>
+  <project name="old/deepin-system-settings" path="old/deepin-system-settings"/>
+  <project name="old/deepin-system-tray" path="old/deepin-system-tray"/>
+  <project name="old/deepin-talk" path="old/deepin-talk"/>
+  <project name="old/deepin-themes" path="old/deepin-themes"/>
+  <project name="old/deepin-translator" path="old/deepin-translator"/>
+  <project name="old/deepin-ui" path="old/deepin-ui"/>
+  <project name="old/deepin-user-manual" path="old/deepin-user-manual"/>
+  <project name="old/deepin-utils" path="old/deepin-utils"/>
+  <project name="old/deepin-webkit" path="old/deepin-webkit"/>
+  <project name="old/DeepinWin" path="old/DeepinWin"/>
+  <project name="old/default-gsettings" path="old/default-gsettings"/>
+  <project name="old/desktop-plugins" path="old/desktop-plugins"/>
+  <project name="old/dltk" path="old/dltk"/>
+  <project name="old/emacs-webkit" path="old/emacs-webkit"/>
+  <project name="old/fcitx" path="old/fcitx"/>
+  <project name="old/liblunar" path="old/liblunar"/>
+  <project name="old/linuxdeepin-application-development-manual" path="old/linuxdeepin-application-development-manual"/>
+  <project name="old/pypulseaudio" path="old/pypulseaudio"/>
+  <project name="old/pystorm" path="old/pystorm"/>
+  <project name="old/python-vte" path="old/python-vte"/>
+  <project name="old/qml-dde-dock-applet" path="old/qml-dde-dock-applet"/>
+  <project name="old/qml-gettext-plugin" path="old/qml-gettext-plugin"/>
+
   <!-- <project name="old/deepin-game" path="old/deepin-game"/> -->
   <!-- <project name="old/dde-dock-applets" path="old/dde-dock-applets"/> -->
   <!--<project name="old/dde-workspace" path="old/dde-workspace"/>-->
