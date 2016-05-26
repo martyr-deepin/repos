@@ -78,18 +78,18 @@ opt_show_prj_desc() {
   repo forall -c 'echo ${REPO_PROJECT}: $(git describe --long --tags 2>/dev/null)'
 }
 
-usage_opt_show_prj_with_no_tag() {
-  echo "Usage: ${appname} show_prj_with_no_tag"
+usage_opt_show_prj_no_tag() {
+  echo "Usage: ${appname} show_prj_no_tag"
 }
-opt_show_prj_with_no_tag() {
+opt_show_prj_no_tag() {
   # repo forall -c '[ -z "$(git tag)" ] && echo ${REPO_PROJECT}'
   repo forall -c '[ -z "$(git describe --long --tags 2>/dev/null)" ] && echo ${REPO_PROJECT}'
 }
 
-usage_opt_show_prj_latest_commit_with_no_tag() {
-  echo "Usage: ${appname} show_prj_latest_commit_with_no_tag"
+usage_opt_show_prj_latest_no_tag() {
+  echo "Usage: ${appname} show_prj_latest_no_tag"
 }
-opt_show_prj_latest_commit_with_no_tag() {
+opt_show_prj_latest_no_tag() {
   repo forall -c 'if [ ! -z "$(git describe --long --tags 2>/dev/null)" ]; then
     if git describe --long --tags 2>/dev/null | grep -q -v "\-0\-" ; then
       echo ${REPO_PROJECT} "$(git describe --long --tags) : $(git log --pretty=format:"%s (%cr) <%an>" -1)"
@@ -98,12 +98,12 @@ opt_show_prj_latest_commit_with_no_tag() {
   '
 }
 
-usage_opt_new_tag_for_prj() {
-  echo "Usage: new_tag_for_prj <prj> <newtag> [commit]"
-  echo "Example: ${appname} new_tag_for_prj go-gir-generator 0.9.1"
-  echo "Example: ${appname} -m 'Version %s' new_tag_for_prj go-gir-generator 0.9.1"
+usage_opt_new_tag() {
+  echo "Usage: new_tag <prj> <newtag> [commit]"
+  echo "Example: ${appname} new_tag go-gir-generator 0.9.1"
+  echo "Example: ${appname} -m 'Version %s' new_tag go-gir-generator 0.9.1"
 }
-opt_new_tag_for_prj() {
+opt_new_tag() {
   local prj="$1"; shift
   local newtag="$1"; shift
   if [ "$1" ]; then
@@ -138,25 +138,25 @@ opt_new_tag_for_prj() {
   fi
 }
 
-usage_opt_multi_new_tag_for_prjs() {
-  echo "Usage: multi_new_tag_for_prjs <file|-> [-m <tagmsgfmt>]"
-  echo "Example: ${appname} multi_new_tag_for_prjs file"
-  echo "Example: echo \"go-gir-generator 0.9.1\" | ${appname} multi_new_tag_for_prjs"
-  echo "Example: echo \"go-gir-generator 0.9.1 6e53a3b\" | ${appname} multi_new_tag_for_prjs"
+usage_opt_multi_new_tags() {
+  echo "Usage: multi_new_tags <file|-> [-m <tagmsgfmt>]"
+  echo "Example: ${appname} multi_new_tags file"
+  echo "Example: echo \"go-gir-generator 0.9.1\" | ${appname} multi_new_tags"
+  echo "Example: echo \"go-gir-generator 0.9.1 6e53a3b\" | ${appname} multi_new_tags"
 }
-opt_multi_new_tag_for_prjs() {
+opt_multi_new_tags() {
   if [ $# -gt 0 ]; then
-    cat "$1" | do_opt_multi_new_tag_for_prjs
+    cat "$1" | do_opt_multi_new_tags
   else
-    do_opt_multi_new_tag_for_prjs
+    do_opt_multi_new_tags
   fi
 }
-do_opt_multi_new_tag_for_prjs() {
+do_opt_multi_new_tags() {
   while read line; do
     local prj=$(echo "${line}" | awk '{print $1}')
     local newtag=$(echo "${line}" | awk '{print $2}')
     local commit=$(echo "${line}" | awk '{print $3}')
-    opt_new_tag_for_prj "${prj}" "${newtag}" "${commit}"
+    opt_new_tag "${prj}" "${newtag}" "${commit}"
   done
 }
 

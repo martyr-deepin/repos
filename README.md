@@ -37,26 +37,26 @@ repo sync -j1
 
 3. 显示所有没有tag的项目列表
 ```
-./.repo/manifests/repokit.sh show_prj_with_no_tag
+./.repo/manifests/repokit.sh show_prj_no_tag
 ```
 
 4. 显示最新提交没有tag的项目列表
 ```
-./.repo/manifests/repokit.sh show_prj_latest_commit_with_no_tag
+./.repo/manifests/repokit.sh show_prj_latest_no_tag
 ```
 
 5. 为指定项目创建tag
 ```
-./.repo/manifests/repokit.sh new_tag_for_prj --push dde/dde-daemon 3.0.0
+./.repo/manifests/repokit.sh new_tag --push dde/dde-daemon 3.0.0
 ```
 
 5. 为多个项目批量创建tag
 ```
-./.repo/manifests/repokit.sh --push multi_new_tag_for_prjs newtags.txt
+./.repo/manifests/repokit.sh --push multi_new_tags newtags.txt
 ```
 
 5. 显示repokit.sh使用帮助
 ```
 ./.repo/manifests/repokit.sh -h
-./.repo/manifests/repokit.sh -h show_prj_with_no_tag
+./.repo/manifests/repokit.sh -h show_prj_no_tag
 ```
