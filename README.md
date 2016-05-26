@@ -19,7 +19,7 @@ cd -
 ./repo sync
 ```
 
-## Check project list
+## Check projects difference with gerrit
 
 ```
 ./.repo/manifests/check_projects.sh
@@ -37,10 +37,26 @@ repo sync -j1
 
 3. Show projects with no tag
 ```
-repo forall -c '(git tag | wc | grep " 0") && pwd'
+./.repo/manifests/repokit.sh show_prj_with_no_tag
 ```
 
 4. Show projects that latest commit with no tag
 ```
-repo forall -c 'printf "$(basename $PWD)\t"; git describe --long --tags' 2>&1 | grep -v '\-0\-'
+./.repo/manifests/repokit.sh show_prj_latest_commit_with_no_tag
+```
+
+5. Create new tag for project
+```
+./.repo/manifests/repokit.sh new_tag_for_prj --push dde/dde-daemon 3.0.0
+```
+
+5. Create new tags for multiple projects
+```
+./.repo/manifests/repokit.sh --push multi_new_tag_for_prjs newtags.txt
+```
+
+5. Show repokit.sh usage
+```
+./.repo/manifests/repokit.sh -h
+./.repo/manifests/repokit.sh -h show_prj_with_no_tag
 ```

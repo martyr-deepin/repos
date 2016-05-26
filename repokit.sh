@@ -85,7 +85,7 @@ usage_opt_show_prj_latest_commit_with_no_tag() {
 opt_show_prj_latest_commit_with_no_tag() {
   repo forall -c 'if [ ! -z "$(git describe --long --tags 2>/dev/null)" ]; then
     if git describe --long --tags 2>/dev/null | grep -q -v "\-0\-" ; then
-      echo ${REPO_PROJECT} "$(git describe --long --tags)"
+      echo ${REPO_PROJECT} "$(git describe --long --tags) : $(git log --pretty=format:"%s (%cr) <%an>" -1)"
     fi
   fi
   '
@@ -161,7 +161,7 @@ arg_tagmsgfmt="Version %s"
 
 while [ $# -gt 0 ]; do
   case "$1" in
-    -h|--help) arg_usage=t; shift; break;;
+    -h|--help) arg_usage=t; shift;;
     -p|--push) arg_push=1; shift;;
     -m|--tagmsgfmt) arg_tagmsgfmt="$2"; shift; shift;;
     *) arg_opt="$1"; shift; break;;
