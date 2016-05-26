@@ -3,7 +3,7 @@
 ```
 mkdir deepin
 wget https://gitcafe.com/Deepin/git-repo/raw/master/repo
-chmod +a repo
+chmod +x repo
 ./repo init -u https://cr.deepin.io/repos --no-repo-verify
 ./repo sync --no-clone-bundle
 ```
@@ -55,7 +55,7 @@ repo sync -j1
 ./.repo/manifests/repokit.sh --push multi_new_tag_for_prjs newtags.txt
 ```
 
-5. Show repokit.sh usage
+5. 显示repokit.sh使用帮助
 ```
 ./.repo/manifests/repokit.sh -h
 ./.repo/manifests/repokit.sh -h show_prj_with_no_tag
