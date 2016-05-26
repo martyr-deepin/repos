@@ -1,4 +1,4 @@
-## Clone Deepin projects
+## 拉取所有Deepin项目源码
 
 ```
 mkdir deepin
@@ -8,7 +8,7 @@ chmod +a repo
 ./repo sync --no-clone-bundle
 ```
 
-## Add SSH access permision
+## 添加SSH访问权限, 否则无法推送变更
 
 ```
 cd .repo/manifests
@@ -19,7 +19,7 @@ cd -
 ./repo sync
 ```
 
-## Check projects difference with gerrit
+## 检测Gerrit项目列表
 
 ```
 ./.repo/manifests/check_projects.sh
@@ -27,30 +27,30 @@ cd -
 
 ## Tips
 
-1. Advice to run `repo sync -f` to fix broken repositories
+1. 运行`repo sync -f`修复失效的项目
 
-2. Sometimes `repo sync` will blocked and there is no more messages, just
-`Ctrl-\` and re-sync with one job to see which one failed
+2. 如果`repo sync`阻塞可以先`Ctrl-\`退出进程然后运行下面的命令检测是哪
+个项目同步失败
 ```
 repo sync -j1
 ```
 
-3. Show projects with no tag
+3. 显示所有没有tag的项目列表
 ```
 ./.repo/manifests/repokit.sh show_prj_with_no_tag
 ```
 
-4. Show projects that latest commit with no tag
+4. 显示最新提交没有tag的项目列表
 ```
 ./.repo/manifests/repokit.sh show_prj_latest_commit_with_no_tag
 ```
 
-5. Create new tag for project
+5. 为指定项目创建tag
 ```
 ./.repo/manifests/repokit.sh new_tag_for_prj --push dde/dde-daemon 3.0.0
 ```
 
-5. Create new tags for multiple projects
+5. 为多个项目批量创建tag
 ```
 ./.repo/manifests/repokit.sh --push multi_new_tag_for_prjs newtags.txt
 ```
