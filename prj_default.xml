@@ -93,7 +93,7 @@
   <!-- <project name="autotest/dweb" path="autotest/dweb"/> -->
 
   <!-- services -->
-  <project name="deepin-social-sharing" path="services/deepin-social-sharing" revision="release/1.1"/>
+  <project name="deepin-social-sharing" path="services/deepin-social-sharing"/>
 
   <!-- settings -->
   <project name="default-settings" path="settings/deepin-default-settings"/>
