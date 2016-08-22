@@ -15,7 +15,7 @@
   <!-- apps -->
   <project name="deepin-feedback" path="apps/deepin-feedback"/>
   <project name="deepin-file-manager-backend" path="apps/deepin-file-manager-backend"/>
-  <project name="deepin-license" path="apps/deepin-license"/>
+  <!-- <project name="deepin-license" path="apps/deepin-license"/> -->
   <project name="deepin-manual" path="apps/deepin-manual"/>
   <project name="deepin-manual-documents" path="apps/deepin-manual-documents"/>
   <project name="deepin-movie" path="apps/deepin-movie"/>
@@ -119,8 +119,8 @@
   <project name="old/deepin-libwm" path="old/deepin-libwm"/>
   <project name="old/deepin-media-player" path="old/deepin-media-player"/>
   <project name="old/deepin-os-upgrader" path="old/deepin-os-upgrader"/>
-  <project name="old/deepin-screenshot" path="old/deepin-screenshot"/>
-  <project name="old/deepin-screenshot-v3" path="old/deepin-screenshot-v3"/>
+  <!-- <project name="old/deepin-screenshot" path="old/deepin-screenshot"/> -->
+  <!-- <project name="old/deepin-screenshot-v3" path="old/deepin-screenshot-v3"/> -->
   <project name="old/deepin-settings-daemon" path="old/deepin-settings-daemon"/>
   <project name="old/deepin-software-center-data" path="old/deepin-software-center-data"/>
   <project name="old/deepin-storm" path="old/deepin-storm"/>
